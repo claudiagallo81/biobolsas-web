@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 12px;
+}
+body{
+    background-color: rgb(223, 247, 229);
+    font-family: 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.menuSuperior{
+    background-color: rgb(4, 109, 18);
+    list-style-type: none;
+    text-align: center;
+}
+.menuSuperior li{
+    display: inline-block;
+    padding: 0.5rem;
+}
+.menuSuperior a{
+    text-decoration: none;
+    color: rgb(234, 241, 230);
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.seccion{
+    margin: 2rem;
+    padding: 1rem;
+    border: 1px solid #e0eee2;
+    background-color: #f9f9f9;
+    box-shadow: 3px 3px #888888;
+}
+.main__btn{
+    padding: 1.4rem 2.8rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(229, 230, 229);
+    cursor: pointer;
+    font-weight: 600;
+}
+.main__btn:hover{
+    background-color: rgb(3, 99, 40);
+}
+.main__btn:active{
+    background-color: rgb(199, 247, 205);
+}
+ 
+.contenedor__imagen {
+    text-align: center;
+    padding: 1rem;
+}
+.contenedor__imagen img{
+   opacity: calc();
+   margin: 2rem;
+   padding: 1rem;
+}
+.contenedor__video{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    background-color: rgb(7, 56, 1);
+    color: rgb(213, 248, 219);
+    text-align: center;
+    padding: 1rem;
+}
+.footer__texto{
+    font-size: 1rem;
+}
+
+/*   Celulares */
+@media (max-width:767px){
+    .contenedor__imagen{
+        display: none;
+        
+    }
+}
+
